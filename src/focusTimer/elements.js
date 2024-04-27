@@ -1,0 +1,5 @@
+export const controls = document.getElementById('controls')
+export let minutes = document.getElementById('minutes')
+export let seconds = document.getElementById('seconds')
+export const increment = document.querySelector('[data-action="plusCounter"]')
+export const decrement = document.querySelector('[data-action="minusCounter"]')
